@@ -9,19 +9,19 @@ print(se)
 plot(ecdf(data1$Data), xlab = "Measurement Number", ylab = "Measurement", main = "CDF")
 
 #getting the data for the second half
-dataframe1 = read.csv(file = 'Downloads/1000.csv')
-dataframe2 = read.csv(file = 'Downloads/2000.csv')
-dataframe3 = read.csv(file = 'Downloads/3000.csv')
-dataframe4 = read.csv(file = 'Downloads/4000.csv')
-dataframe5 = read.csv(file = 'Downloads/5000.csv')
-dataframe6 = read.csv(file = 'Downloads/6000.csv')
-dataframe7 = read.csv(file = 'Downloads/7000.csv')
-dataframe8 = read.csv(file = 'Downloads/8000.csv')
-dataframe9 = read.csv(file = 'Downloads/9000.csv')
-dataframe10 = read.csv(file = 'Downloads/10000.csv')
+dataframe1 = read.csv(file = 'Downloads/100.2.csv')
+dataframe2 = read.csv(file = 'Downloads/200.2.csv')
+dataframe3 = read.csv(file = 'Downloads/300.2.csv')
+dataframe4 = read.csv(file = 'Downloads/400.2.csv')
+dataframe5 = read.csv(file = 'Downloads/500.2.csv')
+dataframe6 = read.csv(file = 'Downloads/600.2.csv')
+dataframe7 = read.csv(file = 'Downloads/700.2.csv')
+dataframe8 = read.csv(file = 'Downloads/800.2.csv')
+dataframe9 = read.csv(file = 'Downloads/900.2.csv')
+dataframe10 = read.csv(file = 'Downloads/1000.2.csv')
 
 #creating the x axis
-x = list(10, 20, 30, 40, 50, 60, 70, 80, 90, 100)
+x = list(100, 200, 300, 400, 500, 600, 700, 800, 900, 1000)
 
 #creating the y axis
 s1 = sd(dataframe1$data)
